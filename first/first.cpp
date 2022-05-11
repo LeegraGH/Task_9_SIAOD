@@ -8,6 +8,10 @@
 
 using namespace std;
 
+// Линейный поиск
+// Поиск с барьером
+// Бинарный поиск
+
 struct Student
 {
     int num_book;
@@ -110,7 +114,7 @@ bool operator<(const Student& a, const Student& b)
 
 void binarySearch(vector <Student> arr, int num)
 {
-    sort(arr.begin(), arr.end());
+    sort(arr.begin(), arr.end());а 
     int i = 0, j = arr.size() - 1;
     Student left = arr[i];
     Student mid = arr[(i + j) / 2];
